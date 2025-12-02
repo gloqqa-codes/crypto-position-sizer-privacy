@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Crypto Position Sizer</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 25px;
+        }
+        .last-updated {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .no-data {
+            background: #e8f6f3;
+            padding: 15px;
+            border-left: 4px solid #1abc9c;
+            margin: 20px 0;
+        }
+        .contact {
+            background: #e8f4fc;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy - Crypto Position Sizer Chrome Extension</h1>
+        <p class="last-updated">Last Updated: <span id="current-date"></span></p>
+
+        <h2>1. Overview</h2>
+        <p>Crypto Position Sizer ("the Extension") is committed to protecting your privacy. This Privacy Policy explains what information we collect, how we use it, and your rights regarding your personal data.</p>
+
+        <h2>2. Data Collection</h2>
+        <div class="no-data">
+            <strong>We do NOT collect any personal data.</strong> The Extension operates entirely locally on your device.
+        </div>
+        
+        <p>The Extension does NOT:</p>
+        <ul>
+            <li>Collect personally identifiable information</li>
+            <li>Track your browsing history or activity</li>
+            <li>Access your personal files or documents</li>
+            <li>Read your passwords or sensitive information</li>
+            <li>Share any data with third parties</li>
+            <li>Use analytics or tracking software</li>
+        </ul>
+
+        <h2>3. Local Storage</h2>
+        <p>The Extension uses Chrome's local storage to save:</p>
+        <ul>
+            <li>Your account balance settings</li>
+            <li>Risk percentage preferences</li>
+            <li>Favorite cryptocurrency pairs</li>
+            <li>Custom stop-loss configurations</li>
+            <li>Theme and display preferences</li>
+        </ul>
+        <p><strong>Important:</strong> All this data is stored locally on your computer and never transmitted to any server.</p>
+
+        <h2>4. External API Access</h2>
+        <p>The Extension accesses:</p>
+        <ul>
+            <li><strong>Binance Public API (api.binance.com):</strong> To fetch current cryptocurrency prices</li>
+        </ul>
+        <p>This access is:</p>
+        <ul>
+            <li>Read-only (no data sent to Binance)</li>
+            <li>Using public endpoints only</li>
+            <li>No authentication required</li>
+            <li>No personal data exchanged</li>
+        </ul>
+
+        <h2>5. Permissions Used</h2>
+        <ul>
+            <li><strong>"storage":</strong> Used only to save your settings locally on your device</li>
+            <li><strong>"host_permissions" (api.binance.com):</strong> Used only to fetch public market data</li>
+        </ul>
+
+        <h2>6. Third-Party Services</h2>
+        <p>The Extension does not integrate with any third-party services except for:</p>
+        <ul>
+            <li>Binance API for price data (public, read-only)</li>
+            <li>No Google Analytics, Facebook pixels, or other trackers</li>
+            <li>No advertising networks</li>
+            <li>No data brokers</li>
+        </ul>
+
+        <h2>7. Data Security</h2>
+        <p>Since no data is collected or transmitted, there is:</p>
+        <ul>
+            <li>No risk of data breaches</li>
+            <li>No server-side storage</li>
+            <li>No database to secure</li>
+            <li>No data transmission to protect</li>
+        </ul>
+        <p>All your settings remain encrypted in Chrome's local storage on your own device.</p>
+
+        <h2>8. Children's Privacy</h2>
+        <p>The Extension is not directed at children under 13 or anyone below age 21, and we do not knowingly collect any information from children.</p>
+
+        <h2>9. Changes to This Policy</h2>
+        <p>If we ever change our privacy practices (we currently collect nothing), we will update this policy and notify users through the Chrome Web Store listing.</p>
+
+        <h2>10. Your Rights</h2>
+        <p>Since we collect no data, you have:</p>
+        <ul>
+            <li>Nothing to access, correct, or delete</li>
+            <li>No need to opt-out of data collection</li>
+            <li>No subscriptions to cancel</li>
+        </ul>
+        <p>You can completely remove all extension data by uninstalling the Extension.</p>
+
+        <div class="contact">
+            <h2>11. Contact Information</h2>
+            <p>For privacy-related questions:</p>
+            <p>• GitHub Repository: <a href="https://github.com/[YOUR_USERNAME]/crypto-position-sizer" target="_blank">View on GitHub</a></p>
+            <p>• Chrome Web Store: Check the extension listing for contact options</p>
+            <p><em>Note: This is an open-source project. You can review the source code to verify our privacy claims.</em></p>
+        </div>
+
+        <h2>12. Open Source Verification</h2>
+        <p>This Extension's source code is available for review. You can verify that:</p>
+        <ul>
+            <li>No data collection code exists</li>
+            <li>All storage is local only</li>
+            <li>Only Binance API is accessed (for public price data)</li>
+        </ul>
+    </div>
+
+    <script>
+        // Auto-update current date
+        const now = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById('current-date').textContent = now.toLocaleDateString('en-US', options);
+    </script>
+</body>
+</html>
